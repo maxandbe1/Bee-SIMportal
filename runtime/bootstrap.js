@@ -6,6 +6,7 @@ import { loadMemoryModule } from "../modules/memory/index.js";
 import { loadPatternModule } from "../modules/pattern/index.js";
 import { loadBeeSimModule } from "../modules/beesim/index.js";
 import { loadSovereigntyModule } from "../modules/sovereignty/index.js";
+import { loadSovereigntyModule } from "../modules/sovereignty/index.js";
 
 export function bootstrapPortal() {
   const runtime = {
