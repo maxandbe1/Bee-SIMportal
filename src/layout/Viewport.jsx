@@ -7,6 +7,8 @@ export function Viewport({ current }) {
     <main className="portal-viewport">
       {current === "identity" && <IdentityView />}
       {current === "memory" && <MemoryView />}
+      {current === "beesim" && <BeeSimView />}
+
     </main>
   );
 }
