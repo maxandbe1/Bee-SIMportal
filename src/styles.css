@@ -184,5 +184,53 @@ body {
   background: #FFD54F;
   box-shadow: 0 0 10px rgba(255,213,79,0.4);
 }
+.sov-section {
+  margin-bottom: 20px;
+}
+
+.sov-bar {
+  width: 100%;
+  height: 6px;
+  border-radius: 999px;
+  background: #020617;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.sov-fill {
+  height: 100%;
+  background: #FFD54F;
+  box-shadow: 0 0 10px rgba(255,213,79,0.4);
+}
+
+.sov-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.sov-controls button {
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid #27272f;
+  background: #020617;
+  color: #e5e7eb;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.sov-controls button:hover {
+  border-color: #FFD54F;
+}
+
+.sov-constraint {
+  margin-bottom: 12px;
+}
+
+.sov-constraint-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
 
 
