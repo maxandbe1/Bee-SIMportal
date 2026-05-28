@@ -12,6 +12,8 @@ export function NavRail({ current, onChange }) {
       <ul>
         {items.map((item) => (
           <li key={item.key}>
+            { key: "beesim", label: "Bee SIM" },
+
             <button
               className={item.key === current ? "nav-item active" : "nav-item"}
               onClick={() => onChange(item.key)}
