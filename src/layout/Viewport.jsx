@@ -8,6 +8,8 @@ export function Viewport({ current }) {
       {current === "identity" && <IdentityView />}
       {current === "memory" && <MemoryView />}
       {current === "beesim" && <BeeSimView />}
+      {current === "sovereignty" && <SovereigntyView />}
+
 
     </main>
   );
