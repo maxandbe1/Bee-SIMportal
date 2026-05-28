@@ -13,6 +13,8 @@ export function NavRail({ current, onChange }) {
         {items.map((item) => (
           <li key={item.key}>
             { key: "beesim", label: "Bee SIM" },
+            { key: "sovereignty", label: "Sovereignty" },
+
 
             <button
               className={item.key === current ? "nav-item active" : "nav-item"}
