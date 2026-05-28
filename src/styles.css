@@ -118,4 +118,71 @@ body {
   font-size: 13px;
   color: #9ca3af;
 }
+.beesim-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.beesim-controls button {
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid #27272f;
+  background: #020617;
+  color: #e5e7eb;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.beesim-controls button:hover {
+  border-color: #FFD54F;
+}
+
+.beesim-tick {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-left: auto;
+}
+
+.beesim-agents {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.beesim-agent {
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #111827;
+  border: 1px solid #27272f;
+}
+
+.beesim-agent-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.beesim-agent-focus {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-bottom: 4px;
+}
+
+.beesim-agent-bar {
+  width: 100%;
+  height: 6px;
+  border-radius: 999px;
+  background: #020617;
+  overflow: hidden;
+}
+
+.beesim-agent-fill {
+  height: 100%;
+  background: #FFD54F;
+  box-shadow: 0 0 10px rgba(255,213,79,0.4);
+}
+
 
