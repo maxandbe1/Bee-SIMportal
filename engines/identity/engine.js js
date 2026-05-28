@@ -1,0 +1,15 @@
+let identityState = {
+  name: "Portal OS",
+  version: "1.0.0",
+  premium: true,
+  lanes: 4
+};
+
+export function getIdentityState() {
+  return identityState;
+}
+
+export function updateIdentity(patch) {
+  identityState = { ...identityState, ...patch };
+  return identityState;
+}
